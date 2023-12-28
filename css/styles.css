@@ -1,0 +1,74 @@
+:root {
+    --color-purple: #883AE1;
+    --color-pink: #E6D6FC;
+    --color-violet: #E5EAF0;
+    --color-silk: #FAFAF9;
+    --color-white: #FFFFFF;
+    --color-dark-blue: #20293A;
+    --color-gray: #6C727F;
+    --font-primary: 'Sora', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);        
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {    
+    margin-top: 164px;
+}
+
+.card {
+    max-width: 340px;
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: var(--color-violet) 0 0 20px;    
+    font-weight: 100;
+}
+    .card__title, .card__body {
+        padding: 0 16px;
+    }
+    
+    .card__img {
+        padding: 16px 16px 0 16px;
+    }        
+        .card__img > img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+    .card__tag {
+        padding: 16px;
+    }
+        .card__tag--text {
+            font-size: 10px;
+            font-weight: 400;
+            background-color: var(--color-pink);
+            color: var(--color-purple);
+            margin: 16px 0;
+            padding: 6px 16px;        
+            border-radius: 50px;
+        }
+
+    .card__body {
+        font-size: 14px;
+        padding-top: 6px;
+        padding-bottom: 20px;
+    }
+
+    .card__footer {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+    .card__divider {        
+        color: var(--color-silk);
+        border: 1px solid var(--color-silk)
+    }
